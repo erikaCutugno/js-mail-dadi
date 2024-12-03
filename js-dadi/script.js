@@ -12,6 +12,8 @@ console.log(computerNumb)
 
 if(userNumb > computerNumb){
     alert("Hai vinto")
-} else{
+} else if (userNumb < computerNumb){
     alert("Hai perso")
+} else {
+    alert("Pareggio")
 }
